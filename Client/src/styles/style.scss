@@ -1,0 +1,22 @@
+@import './utils/bootstrap-reboot.min.scss';
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+:root {
+    --green: #2E7D32;
+}
+
+.logo { 
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+}

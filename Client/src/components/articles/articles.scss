@@ -1,0 +1,12 @@
+.articles {
+    &__heading {
+        color: var(--green);
+    }
+
+    &__link {
+        display: block;
+        font-weight: 700;
+        color: #EF6C00;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,25 @@
+.events {
+    &__item {
+        display: flex;
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+    &__img {
+        max-width: 50%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    &__name {
+        color: var(--green);
+    }
+
+    &__date, &__place {
+        margin-top: 20px;
+        span {
+            font-size: 20px;
+            font-weight: 700;
+            color: #EF6C00;
+        }
+    }
+}
